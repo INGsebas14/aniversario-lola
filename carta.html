@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta</title>
+    <link rel="stylesheet" href="styles/carta.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="header__menu">
+            <a class="header__menu__link" href="paginalola.html">Principal</a>
+            <a class="header__menu__link" href="amor.html">Amor❤️</a>
+            <a class="header__menu__link" href="index.html">Cancion</a>
+        </nav>
+    </header>
+    <main>
+        <button id="modal" onclick="modal();" class="boton" style="display: block;">Oprimeme</button>
+    <div class="carta" id="laCarta" style="display: none;">
+        <div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%;" onclick="cerrarModal();"></div>
+        <h1>MI LOLA HERMOSA</h1>
+        <p>
+            No hay palabras suficientes para expresar cuánto significas para mí. 
+            Cada momento que compartimos es un tesoro que guardo en mi corazón.
+            Espero que esta carta te recuerde lo especial que eres y cuánto te amo❤️.
+        </p>
+        <p>
+            Siempre tuyo,<br>
+            Mi amor
+        </p>
+        <button onclick="cerrarModal();" class="boton">Cerrar</button>
+    </div>
+</main>
+<script src="pag.js"></script>
+</body>
+</html>
