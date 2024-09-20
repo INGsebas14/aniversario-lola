@@ -42,6 +42,7 @@ h1.presentacion__contenido__titulo{
 p,ul.presentacion__contenido__parrafo{
     font-size: 13px;
     font-family: "Playwrite AU SA", cursive;
+    list-style: none;
 }
 img{
     width: 40%;
