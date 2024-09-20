@@ -4,6 +4,7 @@
     padding: 0;
 } 
 body{
+    width: 100%;
     color: white;
     background-color: #000000;
 }
@@ -52,6 +53,7 @@ img{
     padding-bottom: 2.5rem;
 }
 footer,p.footer{
+    width: 100%;
     padding: 10px;
     background-color: blueviolet;
     color: #000000;
@@ -74,5 +76,8 @@ footer,p.footer{
     }
     img{
         width: 80%;
+    }
+    footer{
+        width: 100%;
     }
 }
