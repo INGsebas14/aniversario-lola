@@ -58,3 +58,17 @@ footer,p.footer{
     font-size: 24px;
     font-family: "Permanent Marker", cursive;
 }
+@media (max-width: 1200px){
+    .header{
+        padding: 10%;
+    }
+    .header__menu{
+        justify-content: center;
+    }
+    main.presentacion{
+        flex-direction: column-reverse;
+    }
+    section.presentacion__contenido{
+        width: auto;
+    }
+}
