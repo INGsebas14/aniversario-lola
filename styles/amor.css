@@ -72,4 +72,7 @@ footer,p.footer{
     section.presentacion__contenido{
         width: auto;
     }
+    img{
+        width: 80%;
+    }
 }
