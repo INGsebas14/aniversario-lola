@@ -70,6 +70,7 @@ footer,p.footer{
     }
     main.presentacion{
         flex-direction: column-reverse;
+        margin: 2px;
     }
     section.presentacion__contenido{
         width: auto;
